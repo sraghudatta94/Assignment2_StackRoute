@@ -1,0 +1,113 @@
+/* CSS for my website */
+li a{
+	display:inline-block;
+	text-decoration: none;
+
+}
+/*header CSS */
+header {
+	margin-bottom: 25px;
+	font-size: 20px;
+	width:100%;
+	position: fixed;
+	z-index: 1;
+	background: white;
+	overflow: hidden;
+	padding-top: 25px;
+}
+header img{
+	padding-top: -50px;
+
+}
+header h1{
+
+	float: left;
+}
+header a{
+	padding-top: 10px;
+	color: #444;
+	font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+nav {
+	float: right;
+	text-decoration: none;
+}
+nav li{
+		display:inline-block;
+
+}
+/*footer CSS */
+footer{
+	clear: both;
+	padding-top: 30px;
+	
+}
+
+
+/*hero unit css */
+.hero{
+	line-height: 50%;
+	background: red;
+	margin-bottom: 80px;
+	line-height: 200%;
+}
+.hero li:after{
+	content: '/';
+	padding: 0 5px;
+	border-spacing: 1px;
+}
+.hero li:last-child:after{
+		content: none;
+
+}
+/*change color of anchor when hover*/
+a:hover{
+
+	color: #1ABC9C;
+}
+section.hero{
+	background: #F5F5F5;
+	margin-bottom: 30px;
+	overflow: hidden;
+	position: relative;
+	padding-top: 100px;
+	
+
+}
+.herodiv{
+	
+    margin: 0;
+    line-height: 1;
+    font-weight: 60;
+    letter-spacing: 1px;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Delius Unicase', cursive;
+}
+
+span .hero{
+	line-height: 1.5;
+}
+a .herodiv{
+
+	font-size: 8px;
+	
+}
+
+div .port{
+	float:right;
+}
+/*google fonts*/
+.divheading{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.divdesc{
+	font-family: 'Indie Flower', cursive;
+}
+.divheading{
+	padding-top: 10px;
+	
+}
