@@ -16,8 +16,12 @@ header {
 	padding-top: 25px;
 }
 header img{
-	padding-top: -50px;
+	max-height: 100px;
+	max-width: 60px;
 
+}
+header button{
+	margin-top: 40px;
 }
 header h1{
 
@@ -32,25 +36,32 @@ header a{
     text-transform: uppercase;
 }
 nav {
-	float: right;
 	text-decoration: none;
 }
 nav li{
 		display:inline-block;
 
 }
+.navbar-brand{
+
+}
 /*footer CSS */
 footer{
 	clear: both;
 	padding-top: 30px;
+	background: ##dadee5;
 	
 }
-
+.footericons{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 /*hero unit css */
 .hero{
-	line-height: 50%;
-	background: red;
+
+	margin-top: 160px;
+	padding-top: 100px;
 	margin-bottom: 80px;
 	line-height: 200%;
 }
@@ -88,7 +99,7 @@ section.hero{
     font-family: 'Delius Unicase', cursive;
 }
 
-span .hero{
+h4 .hero{
 	line-height: 1.5;
 }
 a .herodiv{
@@ -110,4 +121,22 @@ div .port{
 .divheading{
 	padding-top: 10px;
 	
+}
+
+/*copyright*/
+.copyright{
+	padding-top: 8px;
+}
+.imagegridsection{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.hero{
+	text-align: center;
+}
+
+.hero h2{
+	margin-top: -90px;
+	padding-top: 0px;
 }
