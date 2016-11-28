@@ -170,9 +170,7 @@ body {
 
 /* Portrait & landscape phone */
 
-@media (max-width: 480px) {
-	
-}
+@media (max-width: 480px) {}
 
 
 /* Landscape phone to portrait tablet */
@@ -215,8 +213,8 @@ body {
 		background: url('../img/carousel_large_03.jpg') top center no-repeat;
 	}
 }
-.contactmain{
 
+.contactmain {
 	padding-top: 60px;
 	margin-top: 60px;
 }
