@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Head Begins-->
+    <meta charset="UTF-8">
+    <title>My First Responsive Site</title>
+    <!--jquery which is required for bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <!--Bootstrap CSS -->
+    </link>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-glyphicons.css">
+    </link>
+    <!--Fonts-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </link>
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase|Gloria+Hallelujah|Indie+Flower" rel="stylesheet">
+    </link>
+    <link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
+    <!-- custom css and jquery-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </link>
+    <script type="text/javascript" src="../js/script.js"></script>
+    </script>
+  </head>
+  <!--head Ends-->
+  <body data-spy="scroll" data-target=".navbar" data-offset="10">
+    <!-- Body Begins-->
+    <div class="container">
+      <!-- Container div Begins-->
+      <!-- Header begins and fixed top -->
+      <header class="navbar navbar-fixed-top">
+        <!-- 3 bar button for menu for mobiles-->
+        <button class="navbar-toggle iconbutton" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <img class="navbar-brand" src="../img/logo.png" alt="Logo" >
+        <!--<a class="navbar-brand" href="/"><img src="img/logo.png" alt="Your Logo"></a>-->
+        <!-- Logo Here -->
+        <nav class="nav-collapse collapse navbar-responsive-collapse pull-right">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#variouswallet">Various E-Wallet</a></li>
+            <li><a href="#usage">Usage</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+        <!-- Navigation ends here-->
+      </header>
+      <div class="row contactmain">
+        <div class="col-lg-6">
+      <form class="contactform form-horizontal">
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputName">Name</label>
+                        <div class="col-lg-10">
+                          <input class="form-control" id="inputName" placeholder="Name" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                        <div class="col-lg-10">
+                          <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputEmail">Mobile Number</label>
+                        <div class="col-lg-10">
+                          <input class="form-control" id="inputEmail" placeholder="Mobile Number" type="email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputMessage">Address</label>
+                        <div class="col-lg-10">
+                          <textarea class="form-control" id="inputMessage" placeholder="Address" rows="3"></textarea>
+                        </div>
+                      </div>
+                    </form>
+        </div><!--End of form grid-->
+        <div class="col-lg-6">
+            <h1>Give us your Name,Email,Address,Phone number We will contact you back</h1>
+         </div><!-- End of row-->
+        <hr>
+        <!-- footer -->
+        <footer class="footericons">
+          <div class="col-sm-4 copyright">Copyrights &copy; Raghu Datta. You can find us on</div>
+          <a href="www.faceook.com" class="col-sm-2"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+          <a href="www.twitter.com" class="col-sm-2"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+          <a href="www.instagram.com" class="col-sm-2"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+          <a href="www.youtube.com" class="col-sm-2"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
+        </footer>
+        <!-- Footer Ends-->
+    </div>
+      <!--Container div ends here-->
+  </body>
+</html>
