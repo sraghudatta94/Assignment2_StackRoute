@@ -58,7 +58,7 @@ nav li {
 footer {
 	clear: both;
 	padding-top: 30px;
-	background: ##dadee5;
+	background: #dadee5;
 }
 
 .footericons {
@@ -81,7 +81,6 @@ a:hover {
 }
 
 .herodiv {
-	font-weight: 60;
 	color: #333;
 	text-transform: uppercase;
 }
